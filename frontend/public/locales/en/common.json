@@ -1,0 +1,60 @@
+{
+  "appName": "Dream Together",
+  "tagline": "Two lives, one plan",
+  "nav": {
+    "dashboard": "Dashboard", "goals": "Goals", "savings": "Budget & Savings", "memories": "Memory Vault",
+    "journal": "Journal", "timeline": "Timeline", "mood": "Mood Check", "settings": "Settings",
+    "family": "Family", "admin": "Admin"
+  },
+  "auth": {
+    "login": "Log in", "register": "Create account", "fullName": "Full name", "email": "Email",
+    "password": "Password", "noAccount": "Don't have an account?", "haveAccount": "Already have an account?",
+    "logout": "Log out", "loginError": "Incorrect email or password.", "registerError": "Could not create account."
+  },
+  "daysTogether": "Days together", "activeGoals": "Active goals", "totalSaved": "Total saved",
+  "memoriesCount": "Memories saved", "quickActions": "Quick actions", "addMemory": "Add memory",
+  "addGoal": "New goal", "logMood": "Log mood", "save": "Save", "cancel": "Cancel", "delete": "Delete",
+  "title": "Title", "description": "Description", "category": "Category", "targetAmount": "Target amount",
+  "deadline": "Deadline", "progress": "Progress", "noGoalsYet": "No goals yet — add your first one.",
+  "income": "Income", "expenses": "Expenses", "balance": "Balance", "addTransaction": "Add transaction",
+  "amount": "Amount", "date": "Date", "type": "Type", "note": "Note",
+  "noMemoriesYet": "No memories yet.", "mediaUrl": "Image/video URL (optional)", "location": "Location",
+  "writeEntry": "Write entry", "noEntriesYet": "No journal entries yet.", "yourEntry": "Your entry",
+  "addMilestone": "Add milestone", "noEventsYet": "No milestones yet.",
+  "pickMood": "How are you feeling today?", "moodHistory": "Mood history", "noMoodYet": "No mood logged yet.",
+  "profile": "Profile", "language": "Language", "theme": "Theme", "light": "Light", "dark": "Dark",
+  "connectPartner": "Connect with your partner", "inviteByEmail": "Partner's email", "sendInvite": "Send invite",
+  "pendingInvites": "Pending invitations", "accept": "Accept", "connectedPrompt": "Connect with your partner to unlock shared goals, savings, and memories.",
+  "inviteSent": "Invitation sent!", "connectedSuccess": "You're now connected!",
+  "welcomeBack": "Welcome back", "createAccount": "Create your account",
+  "workspace": {
+    "title": "How will you use Dream Together?",
+    "subtitle": "You can change this later.",
+    "solo": "Just me",
+    "soloDesc": "Track your own goals, savings, and memories.",
+    "couple": "Me and my partner",
+    "coupleDesc": "A shared space for two — invite your partner anytime.",
+    "family": "Family",
+    "familyDesc": "Manage goals for the whole family, including children."
+  },
+  "family_": {
+    "title": "Family Members",
+    "addMember": "Add family member",
+    "name": "Full name",
+    "relation": "Relation",
+    "age": "Age (optional)",
+    "child": "Child",
+    "parent": "Parent",
+    "other": "Other",
+    "noMembersYet": "No family members added yet.",
+    "assignGoalTo": "Assign to (optional)",
+    "wholeFamily": "Whole family"
+  },
+  "admin_": {
+    "title": "Admin Dashboard",
+    "totalUsers": "Total users",
+    "totalCouples": "Total workspaces",
+    "totalGoals": "Total goals",
+    "totalMemories": "Total memories"
+  }
+}

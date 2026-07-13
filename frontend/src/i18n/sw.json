@@ -1,0 +1,60 @@
+{
+  "appName": "Dream Together",
+  "tagline": "Maisha mawili, mpango mmoja",
+  "nav": {
+    "dashboard": "Dashibodi", "goals": "Malengo", "savings": "Bajeti na Akiba", "memories": "Hifadhi ya Kumbukumbu",
+    "journal": "Shajara", "timeline": "Ratiba ya Historia", "mood": "Hali ya Moyo", "settings": "Mipangilio",
+    "family": "Familia", "admin": "Admin"
+  },
+  "auth": {
+    "login": "Ingia", "register": "Fungua akaunti", "fullName": "Jina kamili", "email": "Barua pepe",
+    "password": "Nenosiri", "noAccount": "Huna akaunti?", "haveAccount": "Una akaunti tayari?",
+    "logout": "Toka", "loginError": "Barua pepe au nenosiri si sahihi.", "registerError": "Imeshindwa kufungua akaunti."
+  },
+  "daysTogether": "Siku pamoja", "activeGoals": "Malengo yanayoendelea", "totalSaved": "Jumla ya akiba",
+  "memoriesCount": "Kumbukumbu zilizohifadhiwa", "quickActions": "Vitendo vya haraka", "addMemory": "Ongeza kumbukumbu",
+  "addGoal": "Lengo jipya", "logMood": "Weka hali", "save": "Hifadhi", "cancel": "Ghairi", "delete": "Futa",
+  "title": "Kichwa", "description": "Maelezo", "category": "Aina", "targetAmount": "Kiasi lengwa",
+  "deadline": "Tarehe ya mwisho", "progress": "Maendeleo", "noGoalsYet": "Hakuna malengo bado — ongeza la kwanza.",
+  "income": "Mapato", "expenses": "Matumizi", "balance": "Salio", "addTransaction": "Ongeza muamala",
+  "amount": "Kiasi", "date": "Tarehe", "type": "Aina", "note": "Maelezo mafupi",
+  "noMemoriesYet": "Hakuna kumbukumbu bado.", "mediaUrl": "Kiungo cha picha/video (si lazima)", "location": "Mahali",
+  "writeEntry": "Andika kumbukumbu", "noEntriesYet": "Hakuna maandishi ya shajara bado.", "yourEntry": "Andiko lako",
+  "addMilestone": "Ongeza tukio muhimu", "noEventsYet": "Hakuna matukio bado.",
+  "pickMood": "Unajisikiaje leo?", "moodHistory": "Historia ya hali", "noMoodYet": "Hakuna hali iliyowekwa bado.",
+  "profile": "Wasifu", "language": "Lugha", "theme": "Mandhari", "light": "Nuru", "dark": "Giza",
+  "connectPartner": "Unganisha na mpenzi wako", "inviteByEmail": "Barua pepe ya mpenzi", "sendInvite": "Tuma mwaliko",
+  "pendingInvites": "Mialiko inayosubiri", "accept": "Kubali", "connectedPrompt": "Unganisha na mpenzi wako ili kufungua malengo, akiba, na kumbukumbu za pamoja.",
+  "inviteSent": "Mwaliko umetumwa!", "connectedSuccess": "Sasa mmeunganishwa!",
+  "welcomeBack": "Karibu tena", "createAccount": "Fungua akaunti yako",
+  "workspace": {
+    "title": "Utatumiaje Dream Together?",
+    "subtitle": "Unaweza kubadilisha hii baadaye.",
+    "solo": "Peke yangu",
+    "soloDesc": "Fuatilia malengo, akiba, na kumbukumbu zako binafsi.",
+    "couple": "Mimi na mpenzi wangu",
+    "coupleDesc": "Nafasi ya pamoja kwa wawili — mualike mpenzi wako wakati wowote.",
+    "family": "Familia",
+    "familyDesc": "Simamia malengo ya familia nzima, ikiwemo watoto."
+  },
+  "family_": {
+    "title": "Wanafamilia",
+    "addMember": "Ongeza mwanafamilia",
+    "name": "Jina kamili",
+    "relation": "Uhusiano",
+    "age": "Umri (si lazima)",
+    "child": "Mtoto",
+    "parent": "Mzazi",
+    "other": "Mwingine",
+    "noMembersYet": "Hakuna mwanafamilia aliyeongezwa bado.",
+    "assignGoalTo": "Weka kwa (si lazima)",
+    "wholeFamily": "Familia nzima"
+  },
+  "admin_": {
+    "title": "Dashibodi ya Admin",
+    "totalUsers": "Jumla ya watumiaji",
+    "totalCouples": "Jumla ya workspaces",
+    "totalGoals": "Jumla ya malengo",
+    "totalMemories": "Jumla ya kumbukumbu"
+  }
+}

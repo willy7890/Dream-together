@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { font-family: "Inter", ui-sans-serif, system-ui; }
+
+/* Light theme overrides — toggled via .light-theme class on <html> from Settings */
+.light-theme .bg-bg { background-color: #F5F1E8 !important; }
+.light-theme .bg-surface, .light-theme .bg-sidebar, .light-theme .bg-surface2 { background-color: #FFFFFF !important; }
+.light-theme .text-ink { color: #1B1533 !important; }
+.light-theme .text-muted { color: #6B6483 !important; }
+.light-theme .border-white\/5 { border-color: rgba(0,0,0,0.06) !important; }
+.light-theme .border-white\/10 { border-color: rgba(0,0,0,0.1) !important; }
+.light-theme .bg-white\/5 { background-color: rgba(0,0,0,0.04) !important; }
+.light-theme .bg-white\/10 { background-color: rgba(0,0,0,0.08) !important; }
