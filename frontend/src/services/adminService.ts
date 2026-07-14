@@ -25,3 +25,35 @@ export const updateUser = async (id: number, payload: Partial<AdminUser>): Promi
   (await api.patch(`/admin/users/${id}`, payload)).data;
 
 export const deleteUser = async (id: number): Promise<void> => { await api.delete(`/admin/users/${id}`); };
+
+export interface ContentReport {
+  id: number;
+  reporter_id: number;
+  target_type: string;
+  target_id: number;
+  reason: string;
+  status: string;
+  created_at: string;
+}
+
+export interface AdminMemory {
+  id: number;
+  title: string;
+  media_url: string | null;
+  media_type: string;
+  date: string;
+  couple_id: number;
+}
+
+export const listReports = async (status?: string): Promise<ContentReport[]> =>
+  (await api.get("/admin/reports", { params: status ? { status } : {} })).data;
+
+export const resolveReport = async (id: number): Promise<ContentReport> =>
+  (await api.post(`/admin/reports/${id}/resolve`)).data;
+
+export const dismissReport = async (id: number): Promise<ContentReport> =>
+  (await api.post(`/admin/reports/${id}/dismiss`)).data;
+
+export const listAllMemories = async (): Promise<AdminMemory[]> => (await api.get("/admin/memories")).data;
+
+export const adminDeleteMemory = async (id: number): Promise<void> => { await api.delete(`/admin/memories/${id}`); };

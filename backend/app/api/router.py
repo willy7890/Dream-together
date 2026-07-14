@@ -2,7 +2,7 @@ from fastapi import APIRouter
 
 from app.api.routes import (
     admin, ai, analytics, auth, couples, documents, family, goals,
-    journals, memories, messages, mood, notifications, premium, savings, timeline, users,
+    journals, memories, messages, mood, notifications, premium, reports, savings, timeline, users,
 )
 
 api_router = APIRouter(prefix="/api/v1")
@@ -22,4 +22,5 @@ api_router.include_router(messages.router)
 api_router.include_router(documents.router)
 api_router.include_router(ai.router)
 api_router.include_router(premium.router)
+api_router.include_router(reports.router)
 api_router.include_router(admin.router)
